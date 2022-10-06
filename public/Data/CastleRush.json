@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "triggerIcon": "Population",
+            "triggerText": "4",
+            "actionIcons": [
+                {"icon": "Villager"},
+                {"icon": "FoodGather"}
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "5",
+            "actionIcons": [
+                {"icon": "Villager"},
+                {"icon": "FoodGather"}
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "6",
+            "actionIcons": [
+                {"icon": "Villager"},
+                {"icon": "FoodGather"}
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "7",
+            "actionIcons": [
+                {"icon": "Villager"},
+                {"icon": "Wood"}
+            ]
+        }
+    ]
+}
