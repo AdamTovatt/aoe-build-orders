@@ -3,8 +3,6 @@ import { Color, BorderRadius, Icons } from "../Constants";
 import Icon from "./Icon";
 
 const Event = ({ eventInfo }) => {
-  console.log(eventInfo);
-
   return (
     <ActionBackground>
       <Icon
@@ -12,8 +10,13 @@ const Event = ({ eventInfo }) => {
         text={eventInfo.triggerText}
       />
       <Icon />
-      {eventInfo.actionIcons.map((actionIcon) => {
-        return <Icon source={Icons[actionIcon.icon]}></Icon>;
+      {eventInfo.actionIcons.map((actionIcon, index) => {
+        return (
+          <Icon
+            key={eventInfo.triggerText + index}
+            source={Icons[actionIcon.icon]}
+          ></Icon>
+        );
       })}
     </ActionBackground>
   );

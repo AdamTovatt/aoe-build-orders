@@ -17,21 +17,41 @@ const StartPage = ({ fileName }) => {
 
   return (
     <CenterContainer>
-      {data ? (
-        <>
-          {data.events.map((event) => {
-            return <Event key={event} eventInfo={event}></Event>;
-          })}
-        </>
-      ) : null}
+      <EventContainer>
+        {data ? (
+          <>
+            {data.events.map((event, index) => {
+              return (
+                <EventLine>
+                  <Event key={index} eventInfo={event}></Event>
+                </EventLine>
+              );
+            })}
+          </>
+        ) : null}
+      </EventContainer>
     </CenterContainer>
   );
 };
 
-const CenterContainer = styled.div`
+const EventLine = styled.div`
+  margin-right: 5rem;
+`;
+
+const EventContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 80vw;
+  max-height: 55rem;
+`;
+
+const CenterContainer = styled.div`
+  height: 100vh;
+  display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export default StartPage;

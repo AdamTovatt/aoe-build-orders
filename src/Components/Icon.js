@@ -7,7 +7,7 @@ const Icon = ({ source, text }) => {
       {source ? (
         <IconElement src={source} />
       ) : (
-        <EmptyIconElement></EmptyIconElement>
+        <IconElement src={"Icons/ArrowRight.png"} />
       )}
       {text ? (
         <IconTextContainer>

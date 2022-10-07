@@ -4,32 +4,273 @@
             "triggerIcon": "Population",
             "triggerText": "4",
             "actionIcons": [
-                {"icon": "Villager"},
-                {"icon": "FoodGather"}
+                {
+                    "icon": "Villager"
+                },
+                {
+                    "icon": "FoodGather"
+                }
             ]
         },
         {
             "triggerIcon": "Population",
             "triggerText": "5",
             "actionIcons": [
-                {"icon": "Villager"},
-                {"icon": "FoodGather"}
+                {
+                    "icon": "Villager"
+                },
+                {
+                    "icon": "FoodGather"
+                }
             ]
         },
         {
             "triggerIcon": "Population",
             "triggerText": "6",
             "actionIcons": [
-                {"icon": "Villager"},
-                {"icon": "FoodGather"}
+                {
+                    "icon": "Villager"
+                },
+                {
+                    "icon": "FoodGather"
+                }
             ]
         },
         {
             "triggerIcon": "Population",
             "triggerText": "7",
             "actionIcons": [
-                {"icon": "Villager"},
-                {"icon": "Wood"}
+                {
+                    "icon": "LumberCamp"
+                },
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "8",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "9",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "10",
+            "actionIcons": [
+                {
+                    "icon": "House"
+                },
+                {
+                    "icon": "Boar"
+                },
+                {
+                    "icon": "Food"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "11",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "12",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "13",
+            "actionIcons": [
+                {
+                    "icon": "Mill"
+                },
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "14",
+            "actionIcons": [
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "15",
+            "actionIcons": [
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "16",
+            "actionIcons": [
+                {
+                    "icon": "Boar"
+                },
+                {
+                    "icon": "Food"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "17",
+            "actionIcons": [
+                {
+                    "icon": "House"
+                },
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "18",
+            "actionIcons": [
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "19",
+            "actionIcons": [
+                {
+                    "icon": "FoodBerries"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "20",
+            "actionIcons": [
+                {
+                    "icon": "House"
+                },
+                {
+                    "icon": "LumberCamp"
+                },
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "21",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "22",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "23",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "24",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "25",
+            "actionIcons": [
+                {
+                    "icon": "MiningCamp"
+                },
+                {
+                    "icon": "Gold"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "26",
+            "actionIcons": [
+                {
+                    "icon": "Gold"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Population",
+            "triggerText": "27",
+            "actionIcons": [
+                {
+                    "icon": "Gold"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "DarkAge",
+            "triggerText": "",
+            "actionIcons": [
+                {
+                    "icon": "FeudalAge"
+                }
+            ]
+        },
+        {
+            "triggerIcon": "Villager",
+            "triggerText": "",
+            "actionIcons": [
+                {
+                    "icon": "Wood"
+                },
+                {
+                    "icon": "Barracks"
+                }
             ]
         }
     ]
