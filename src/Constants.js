@@ -42,4 +42,8 @@ export const Icons = {
     "https://static.wikia.nocookie.net/ageofempires/images/d/de/CastleageDE.png",
   DarkAge:
     "https://static.wikia.nocookie.net/ageofempires/images/e/e7/DarkageDE.png",
+  HouseCollar:
+    "https://static.wikia.nocookie.net/ageofempires/images/c/c2/HorseCollarDE.png",
+  DoubleBitAxe:
+    "https://static.wikia.nocookie.net/ageofempires/images/f/fb/DoubleBitAxe_aoe2DE.png",
 };

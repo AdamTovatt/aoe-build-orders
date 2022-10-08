@@ -5,16 +5,12 @@ import Icon from "./Icon";
 const Event = ({ eventInfo }) => {
   return (
     <ActionBackground>
-      <Icon
-        source={Icons[eventInfo.triggerIcon]}
-        text={eventInfo.triggerText}
-      />
-      <Icon />
-      {eventInfo.actionIcons.map((actionIcon, index) => {
+      {eventInfo.icons.map((icon, index) => {
         return (
           <Icon
             key={eventInfo.triggerText + index}
-            source={Icons[actionIcon.icon]}
+            source={Icons[icon.image]}
+            text={icon.text}
           ></Icon>
         );
       })}
